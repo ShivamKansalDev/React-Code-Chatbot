@@ -29,6 +29,7 @@ const ChatBotModal = ({ modalOpen, closeModal }) => {
   };
 
   return (
+    
     // The modal is conditionally rendered based on modalOpen
     modalOpen && (
       <div className="chatbot-container">
