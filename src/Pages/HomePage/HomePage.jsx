@@ -7,7 +7,9 @@ const HomePage = () => {
       {/* <button className="bg-slate-950 py-24" onClick={() => navigate("/main")}>
         HomePage
       </button> */}
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      <div className="flex justify-center items-center h-screen bg-blue-500">
+        <h1 className="text-4xl text-white font-bold">Hello, Tailwind CSS!</h1>
+      </div>
     </>
   );
 };
