@@ -43,6 +43,7 @@ const ChatBotModal = ({ modalOpen, closeModal }) => {
     modalOpen && (
       <div className="chatbot-container">
         <div className="flex items-center gap-3 mb-3">
+          
           <img
             src={star}
             alt="arrow down"
