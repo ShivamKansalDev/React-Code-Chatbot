@@ -24,6 +24,7 @@ export const CardChat = ({
               I like this
             </button>
           </div>
+
           <div className={`${borderHidden}`}></div>
           <div className={`text-end`}>{bottomText}</div>
         </div>
