@@ -18,6 +18,7 @@ const HomePage = ({}) => {
 
   return (
     <>
+    
       <ChatBotModal modalOpen={modalOpen} closeModal={closeModal} />
 
       <div className="absolute bottom-0 right-0">
