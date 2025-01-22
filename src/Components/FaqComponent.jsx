@@ -3,23 +3,20 @@ import React from "react";
 function FaqComponent({ imageSrc, altText , messageTitle, messageBody, customStyles = "" }) {
 
   return (
-    <div className={`flex   rounded-[12px]   gap-[10px] ${customStyles}`}>
+    <div className={`flex   rounded-[12px]  px-[40px] gap-[10px] ${customStyles}`}>
 
         
-      <div className="   bg-white  p-[12px] rounded-[12px]">
+      <div className=" flex justify-between bg-white w-full  p-[12px] rounded-[100px]">
       {messageTitle && <p className="font-bold">{messageTitle}</p>}
         <p>{messageBody}</p>
-      </div>
-     
-        
-        {/* <img
+
+        <img
             src={imageSrc}
             alt={altText}
-            className="w-[26px] h-[26px] cursor-pointer"
-        /> */}
+            className="w-[24px] h-[24px] cursor-pointer"
+            />
+            </div>
 
-
- 
     </div>
   );
 }
