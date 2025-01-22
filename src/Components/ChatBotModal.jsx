@@ -19,6 +19,7 @@ import Frame38 from "./frame38/Frame38";
 import Frame14 from "./frame14/Frame14";
 import Frame15 from "./frame15/Frame15";
 import Frame18 from "./frame18/Frame18";
+import { Frame32 } from "../Pages/Frame32/Frame32";
 
 const ChatBotModal = ({ modalOpen, closeModal }) => {
   const [messages, setMessages] = useState([]);
@@ -68,23 +69,26 @@ const ChatBotModal = ({ modalOpen, closeModal }) => {
               <div className="chat-box">
                 {/* {CardChat} */}
 
-            <div className="relative bg-[#F7F8F9]  h-full">
-              <div className="chat-box">
-                {/* Ram start*/}
-                <div className="mb-5">
-                  <Frame29 />
+                <div className="relative bg-[#F7F8F9]  h-full">
+                  <div className="chat-box">
+                    {/* Ram start*/}
+                    <div className="mb-5">
+                      <Frame29 />
+                    </div>
+                    <div className="mb-5">
+                      <Frame31 />
+                    </div>
+                    <div className="mb-5">
+                      <Frame32 />
+                    </div>
+                    {/* Ram start*/}
+                    <Frame14 />
+                    <Frame15 />
+                    {/* <Frame18 /> */}
+                  </div>
                 </div>
-
-                <Frame14 />
-                <Frame15 />
-                <Frame18 />
-
-                
+              </div>
             </div>
-            </div>
-            </div>
-            </div>
-            
 
             {/* {Ram end} */}
 
