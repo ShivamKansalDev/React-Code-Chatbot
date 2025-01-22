@@ -11,9 +11,7 @@ export const CardChat = ({
     <>
       <div class="max-w-sm rounded overflow-hidden shadow-lg">
         <img class="w-full" src={image} alt="Sunset in the mountains" />
-        <div class="px-6 py-4 text-center">
-
-          
+        <div class="px-6 py-4 text-center ">
           <div class={`font-bold ${CardTextCenter}`}>{title}</div>
           <p className={`text-[10px] mb-2 text-[#727681] ${CardTextCenter}`}>
             {pre}
