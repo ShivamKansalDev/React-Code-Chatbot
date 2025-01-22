@@ -66,6 +66,7 @@ const ChatBotModal = ({ modalOpen, closeModal }) => {
                   <ImageComponent />
                   <ImageComponent />
                   </div>
+                  
 
                   <MessageUser 
                     imageSrc={user}  
