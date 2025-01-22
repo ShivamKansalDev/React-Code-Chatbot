@@ -1,0 +1,30 @@
+import React from "react";
+
+function MessageBox({ imageSrc, altText , messageTitle, messageBody, img, customStyles = ""}) {
+
+  return (
+    <div className={`flex gap-[10px] ${customStyles}`}>
+        
+        {imageSrc ? (
+        <img
+          src={imageSrc}
+          alt={altText}
+          className="w-[26px] h-[26px] cursor-pointer"
+        />
+      ) : (
+        <div className="w-[26px] h-[26px]"></div> // Empty div placeholder
+      )}
+      <div className="bg-white p-[12px] rounded-[12px]">
+      {messageTitle && <p className="font-bold">{messageTitle}</p>}
+        <p>{messageBody}</p>
+        {img &&  <img
+          src={img}
+          alt={altText}
+          className="w-[90px] h-[41px] cursor-pointer"
+        /> }
+      </div>
+    </div>
+  );
+}
+
+export default MessageBox;
