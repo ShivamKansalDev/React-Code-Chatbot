@@ -9,6 +9,7 @@ import "./ChatBotModal.css";
 import MessageBox from "./MessageBox";
 import ImageComponent from "./ImageComponent";
 import MessageUser from "./MessageUser";
+import FaqComponent from "./FaqComponent";
 
 const ChatBotModal = ({ modalOpen, closeModal }) => {
   const [messages, setMessages] = useState([]);
@@ -66,7 +67,7 @@ const ChatBotModal = ({ modalOpen, closeModal }) => {
                   <ImageComponent />
                   <ImageComponent />
                   </div>
-                  
+
 
                   <MessageUser 
                     imageSrc={user}  
@@ -80,7 +81,18 @@ const ChatBotModal = ({ modalOpen, closeModal }) => {
                     img={loadingImage}
                   />
 
-                  
+               <div>
+                  <MessageBox 
+                    imageSrc={star}  
+                    messageBody="What is the purpose of changing your flooring?." 
+                    customStyles="mt-3"
+                    />
+                    <FaqComponent
+                    altText='dasds'
+                    messageBody='Remodeling'
+                    customStyles="   mt-3"
+                    />
+               </div>
 
 
             <div className="flex items-center input-container absolute bottom-4 w-[656px] h-[56px] rounded- [12px] border  ">
