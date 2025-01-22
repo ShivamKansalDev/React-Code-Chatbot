@@ -64,11 +64,8 @@ const ChatBotModal = ({ modalOpen, closeModal }) => {
 
         <div className="relative bg-[#F7F8F9] rounded-[18px]  h-[559px]">
           <div className="chat-box overflow-y-scroll h-[493px]">
-            <Frame38 />
             <div className="relative bg-[#F7F8F9]  h-full">
               <div className="chat-box">
-                {/* {CardChat} */}
-
                 <div className="relative bg-[#F7F8F9]  h-full">
                   <div className="chat-box">
                     {/* Ram start*/}
@@ -81,10 +78,7 @@ const ChatBotModal = ({ modalOpen, closeModal }) => {
                     <div className="mb-5">
                       <Frame32 />
                     </div>
-                    {/* Ram start*/}
-                    <Frame14 />
-                    <Frame15 />
-                    {/* <Frame18 /> */}
+                    {/* Ram End*/}
                   </div>
                 </div>
               </div>
