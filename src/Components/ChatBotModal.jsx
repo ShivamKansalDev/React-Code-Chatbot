@@ -5,6 +5,7 @@ import send from "../assets/images/send.png";
 import user from "../assets/images/user.png";
 import attachment from "../assets/images/attachment.png";
 import loadingImage from "../assets/images/loadingImage.png";
+import rightArrow from "../assets/images/rightArrow.png";
 import "./ChatBotModal.css";
 import MessageBox from "./MessageBox";
 import ImageComponent from "./ImageComponent";
@@ -12,6 +13,12 @@ import MessageUser from "./MessageUser";
 import FaqComponent from "./FaqComponent";
 import { Frame29 } from "../Pages/Frame29/Frame29";
 import { Frame31 } from "../Pages/Frame31/Frame31";
+import { CardChat } from "./CardChat/CardChat";
+import { CardData, CardDataBottm } from "../utils/data";
+import Frame38 from "./frame38/Frame38";
+import Frame14 from "./frame14/Frame14";
+import Frame15 from "./frame15/Frame15";
+import Frame18 from "./frame18/Frame18";
 
 const ChatBotModal = ({ modalOpen, closeModal }) => {
   const [messages, setMessages] = useState([]);
@@ -56,19 +63,10 @@ const ChatBotModal = ({ modalOpen, closeModal }) => {
 
         <div className="relative bg-[#F7F8F9] rounded-[18px]  h-[559px]">
           <div className="chat-box overflow-y-scroll h-[493px]">
-            <MessageBox
-              imageSrc={star}
-              messageTitle="Hi there!"
-              messageBody="I'm MSI Chatbot. Your guide for surfaces."
-            />
-            <MessageBox
-              messageBody="Please choose an option to begin:"
-              customStyles="mt-3"
-            />
-            <div className="flex justify-between gap-3 px-[40px]">
-              <ImageComponent />
-              <ImageComponent />
-            </div>
+            <Frame38 />
+            <div className="relative bg-[#F7F8F9]  h-full">
+              <div className="chat-box">
+                {/* {CardChat} */}
 
             <div className="relative bg-[#F7F8F9]  h-full">
               <div className="chat-box">
@@ -76,47 +74,17 @@ const ChatBotModal = ({ modalOpen, closeModal }) => {
                 <div className="mb-5">
                   <Frame29 />
                 </div>
-                <div className="mb-5">
-                  <Frame31 />
-                </div>
-                {/* Ram End*/}
-                {messages.map((message, index) => (
-                  <div
-                    key={index}
-                    className={`message ${
-                      message.sender === "user" ? "user" : "bot"
-                    }`}
-                  >
-                    {message.text}
-                  </div>
-                ))}
 
-                <MessageUser
-                  imageSrc={user}
-                  customStyles="mt-16"
-                  messageBody="Flooring."
-                />
+                <Frame14 />
+                <Frame15 />
+                <Frame18 />
 
-                <MessageBox
-                  imageSrc={star}
-                  altText="fsdfds"
-                  img={loadingImage}
-                />
-
-                <div>
-                  <MessageBox
-                    imageSrc={star}
-                    messageBody="What is the purpose of changing your flooring?."
-                    customStyles="mt-3"
-                  />
-                  <FaqComponent
-                    altText="dasds"
-                    messageBody="Remodeling"
-                    customStyles="   mt-3"
-                  />
-                </div>
-              </div>
+                
             </div>
+            </div>
+            </div>
+            </div>
+            
 
             {/* {Ram end} */}
 
