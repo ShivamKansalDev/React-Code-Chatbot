@@ -11,12 +11,12 @@ export const CardChat = ({
     <>
       <div class="max-w-sm rounded overflow-hidden shadow-lg">
         <img class="w-full" src={image} alt="Sunset in the mountains" />
-        <div class="px-6 py-4 text-center ">
+        <div class="px-3 py-4 text-center ">
           <div class={`font-bold ${CardTextCenter}`}>{title}</div>
           <p className={`text-[10px] mb-2 text-[#727681] ${CardTextCenter}`}>
             {pre}
           </p>
-          <div className={`${commonButton} flex gap-5`}>
+          <div className={`${commonButton} flex gap-2`}>
             <button className="text-[#1D73F2] border-0  bg-[#1D73F20F] rounded-full hover:bg-[#1D73F2] hover:text-[#fff] px-4 py-1">
               View details
             </button>

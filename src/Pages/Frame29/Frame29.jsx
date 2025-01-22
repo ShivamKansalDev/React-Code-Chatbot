@@ -14,7 +14,6 @@ export const Frame29 = () => {
               pre={card.pre}
               CardTextCenter="text-center"
               // borderText="hidden"
-              commonButton="hidden"
             />
           ))}
         </div>
@@ -25,16 +24,18 @@ export const Frame29 = () => {
         </div>
       </div>
       {CardDataBottm.map((card, index) => (
-        <CardChat
-          key={index}
-          title={card.title}
-          image={card.image}
-          pre={card.pre}
-          bottomText={card.bottomText}
-          commonButton="hidden"
-          CardTextCenter="text-start"
-          borderHidden="border-2 border-b border-bottom mb-3"
-        />
+        <div className="flex justify-end">
+          <CardChat
+            key={index}
+            title={card.title}
+            image={card.image}
+            pre={card.pre}
+            bottomText={card.bottomText}
+            commonButton="hidden"
+            CardTextCenter="text-start"
+            borderHidden="border-2 border-b border-bottom mb-3"
+          />
+        </div>
       ))}
     </div>
   );
