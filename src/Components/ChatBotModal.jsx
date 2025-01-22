@@ -10,8 +10,8 @@ import MessageBox from "./MessageBox";
 import ImageComponent from "./ImageComponent";
 import MessageUser from "./MessageUser";
 import FaqComponent from "./FaqComponent";
-import { CardChat } from "./CardChat/CardChat";
-import { CardData, CardDataBottm } from "../utils/data";
+import { Frame29 } from "../Pages/Frame29/Frame29";
+import { Frame31 } from "../Pages/Frame31/Frame31";
 
 const ChatBotModal = ({ modalOpen, closeModal }) => {
   const [messages, setMessages] = useState([]);
@@ -43,7 +43,6 @@ const ChatBotModal = ({ modalOpen, closeModal }) => {
     modalOpen && (
       <div className="chatbot-container">
         <div className="flex items-center gap-3 mb-3">
-          
           <img
             src={star}
             alt="arrow down"
@@ -70,44 +69,17 @@ const ChatBotModal = ({ modalOpen, closeModal }) => {
               <ImageComponent />
               <ImageComponent />
             </div>
-            <div className="relative bg-[#F7F8F9]  h-full">
-              <div className="chat-box overflow-y-scroll h-60">
-                {/* {CardChat} */}
 
-                <div className="card-data">
-                  <div className="mb-5">
-                    <div class="grid grid-cols-2 gap-4 mb-4">
-                      {CardData.map((card, index) => (
-                        <CardChat
-                          key={index}
-                          title={card.title}
-                          image={card.image}
-                          pre={card.pre}
-                          CardTextCenter="text-center"
-                          // borderText="hidden"
-                          commonButton="hidden"
-                        />
-                      ))}
-                    </div>
-                    <div className="w-full text-center">
-                      <button className="bg-[#1D73F2] text-white px-5 py-2 rounded-full hover:bg-[#1D73F2] hover:text-[#fff]">
-                        View All Options
-                      </button>
-                    </div>
-                  </div>
-                  {CardDataBottm.map((card, index) => (
-                    <CardChat
-                      key={index}
-                      title={card.title}
-                      image={card.image}
-                      pre={card.pre}
-                      bottomText={card.bottomText}
-                      commonButton="hidden"
-                      CardTextCenter="text-start"
-                      borderHidden="border-2 border-b border-bottom mb-3"
-                    />
-                  ))}
+            <div className="relative bg-[#F7F8F9]  h-full">
+              <div className="chat-box">
+                {/* Ram start*/}
+                <div className="mb-5">
+                  <Frame29 />
                 </div>
+                <div className="mb-5">
+                  <Frame31 />
+                </div>
+                {/* Ram End*/}
                 {messages.map((message, index) => (
                   <div
                     key={index}
@@ -145,6 +117,8 @@ const ChatBotModal = ({ modalOpen, closeModal }) => {
                 </div>
               </div>
             </div>
+
+            {/* {Ram end} */}
 
             <div className="flex items-center input-container absolute bottom-4 w-[656px] h-[56px] rounded- [12px] border  ">
               <input
