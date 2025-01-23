@@ -21,6 +21,8 @@ import Frame15 from "./frame15/Frame15";
 import Frame18 from "./frame18/Frame18";
 import { Frame32 } from "../Pages/Frame32/Frame32";
 import Frame16 from "./frame16/Frame16";
+import Frame40 from "./frame40/Frame40";
+import Frame41 from "./frame41/Frame41";
 
 const ChatBotModal = ({ modalOpen, closeModal }) => {
   const [messages, setMessages] = useState([]);
@@ -71,9 +73,9 @@ const ChatBotModal = ({ modalOpen, closeModal }) => {
                 <div className="">
                   <div className="relative bg-[#F7F8F9]  h-full">
                     <div className=" ">
-                     <Frame14 /> 
-                   <Frame15 /> 
-                    <Frame18 /> 
+                      <Frame14 />
+                      <Frame15 />
+                      <Frame18 />
                     </div>
                   </div>
                 </div>
@@ -81,13 +83,16 @@ const ChatBotModal = ({ modalOpen, closeModal }) => {
                   <div className="">
                     <div className="mt-5">
                       {/* <Frame29 /> */}
-                         <Frame16  />
-                      </div>
+                      <Frame16 />
+                    </div>
 
                     {/* <Frame18 /> */}
                     <div className="mt-8">
-                      {/* <Frame16  /> */}
-                      </div>
+                      <Frame40 />
+                    </div>
+                    <div className="mt-8">
+                      <Frame41 />
+                    </div>
                   </div>
                 </div>
               </div>
