@@ -87,12 +87,7 @@ const ChatBotModal = ({ modalOpen, closeModal }) => {
                     </div>
 
                     {/* <Frame18 /> */}
-                    <div className="mt-8">
-                      <Frame40 />
-                    </div>
-                    <div className="mt-8">
-                      <Frame41 />
-                    </div>
+                   
                   </div>
                 </div>
               </div>
