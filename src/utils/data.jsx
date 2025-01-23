@@ -22,7 +22,7 @@ export const Recommended_Options = [
   { title: "Katella Ash", pre: "Luxury Vinyl Flooring", image: image2 },
   { title: "Katella Ash", pre: "Luxury Vinyl Flooring", image: image2 },
   { title: "Katella Ash", pre: "Luxury Vinyl Flooring", image: image1 },
-];
+]
 
 export const CardDataBottm = [
   {
