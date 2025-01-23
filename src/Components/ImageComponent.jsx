@@ -12,7 +12,7 @@ function ImageComponent({
     <div className="w-[286px] h-[237px]" style={{ boxShadow: '0px 8px 64px 0px rgba(3, 33, 79, 0.04)' }}>
       <a 
      
-        className={`p-[12px] rounded-[12px] shadow-xl   flex flex-col items-center ${customStyles}`} 
+        className={`p-[12px] rounded-[12px] shadow-xl bg-white  flex flex-col items-center ${customStyles}`} 
         href={link}
       >
         <img 

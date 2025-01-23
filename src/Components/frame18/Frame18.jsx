@@ -11,44 +11,37 @@ import FaqComponent from "../FaqComponent";
 const Frame18 = () => {
   return (
     <>
-      <MessageBox
-        imageSrc={star}
-        messageBody="What is the purpose of changing your flooring?."
-        customStyles="mt-3"
-      />
+                  <MessageBox
+                    imageSrc={star}
+                    messageBody="For the living room, would you prefer a flooring option that is budget-friendly or are you open to exploring natural wood options?."
+                    customStyles="mt-3"
+                    />
+          
+               <div>
+                    <FaqComponent
+                    altText='dasds'
+                    messageBody='Remodeling'
+                    customStyles="   mt-3"
+                    imageSrc={rightArrow}
+                    text="Budget Friendly"
+                    />
+                     <FaqComponent
+                    altText='dasds'
+                    messageBody='New Construction'
+                    customStyles="   mt-3"
+                    imageSrc={rightArrow}
+                     text="Expensive"
+                    />
+                    <FaqComponent
+                    altText='dasds'
+                    messageBody='Home Sale'
+                    customStyles="mt-3"
+                    imageSrc={rightArrow}
+                    text="No Limit"
+                    />
+                    
+               </div>
 
-      <div>
-        <FaqComponent
-          altText="dasds"
-          messageBody="Remodeling"
-          customStyles="   mt-3"
-          imageSrc={rightArrow}
-        />
-        <FaqComponent
-          altText="dasds"
-          messageBody="New Construction"
-          customStyles="   mt-3"
-          imageSrc={rightArrow}
-        />
-        <FaqComponent
-          altText="dasds"
-          messageBody="Home Sale"
-          customStyles="mt-3"
-          imageSrc={rightArrow}
-        />
-        <FaqComponent
-          altText="dasds"
-          messageBody="Rental Upgrade"
-          customStyles="mt-3"
-          imageSrc={rightArrow}
-        />
-      </div>
-
-      <MessageUser
-        imageSrc={user}
-        customStyles="mt-5"
-        messageBody="Remodeling."
-      />
     </>
   );
 };

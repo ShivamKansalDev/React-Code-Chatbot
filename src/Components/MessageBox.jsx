@@ -15,8 +15,8 @@ function MessageBox({ imageSrc, altText , messageTitle, messageBody, img, custom
         <div className="w-[26px] h-[26px]"></div> // Empty div placeholder
       )}
       <div className="bg-white p-[12px] rounded-[12px]">
-      {messageTitle && <p className="font-bold">{messageTitle}</p>}
-        <p>{messageBody}</p>
+      {messageTitle && <p className="">{messageTitle}</p>}
+        <p className=" ">{messageBody}</p>
         {img &&  <img
           src={img}
           alt={altText}

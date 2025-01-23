@@ -12,7 +12,7 @@ const Frame14 = () => {
     <>
           <MessageUser
                         imageSrc={user}
-                        customStyles="mt-16"
+                        customStyles="mt-5"
                         messageBody="Flooring."
                       />
       

@@ -66,28 +66,23 @@ const ChatBotModal = ({ modalOpen, closeModal }) => {
         <div className="relative bg-[#F7F8F9] rounded-[18px]  h-[559px]">
           <div className="chat-box overflow-y-scroll h-[493px]">
             <div className=" rounded-[18px] p-[15px]">
-              <Frame38 />
+              {/* <Frame38 /> */}
               <div className="relative bg-[#F7F8F9]  h-full">
-                <div className="">
+                <div className="chat-box">
                   <div className="relative bg-[#F7F8F9]  h-full">
-                    <div className=" ">
-                     <Frame14 /> 
-                   <Frame15 /> 
-                    <Frame18 /> 
+                    <div className="chat-box">
+                      {/* <Frame14 /> */}
+                      {/* <Frame15 /> */}
+                      {/* <Frame18 /> */}
                     </div>
                   </div>
                 </div>
                 <div className="relative bg-[#F7F8F9]  h-full">
-                  <div className="">
-                    <div className="mt-5">
-                      {/* <Frame29 /> */}
-                         <Frame16  />
-                      </div>
+                  <div className="chat-box">
+                    <div className="mb-5">{/* <Frame29 /> */}</div>
 
                     {/* <Frame18 /> */}
-                    <div className="mt-8">
-                      {/* <Frame16  /> */}
-                      </div>
+                    <div className="mt-8">{/* <Frame16  /> */}</div>
                   </div>
                 </div>
               </div>
