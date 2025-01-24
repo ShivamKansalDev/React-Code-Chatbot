@@ -10,9 +10,9 @@ import loadingImage from "../../assets/images/loadingImage.png";
 const Frame14 = () => {
   return (
     <>
-          <MessageUser
+                      <MessageUser
                         imageSrc={user}
-                        customStyles="mt-5"
+                        customStyles="mt-20"
                         messageBody="Flooring."
                       />
       
