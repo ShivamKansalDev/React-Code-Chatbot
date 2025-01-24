@@ -2,7 +2,7 @@
 /* ChatBotModal.css */
 .chatbot-container {
   position: fixed;
-  bottom: 79px; /* Change this from 20px to 50px */
+  bottom: 79px; 
   right: 19px;
   width: 700px;
   height: 663px;

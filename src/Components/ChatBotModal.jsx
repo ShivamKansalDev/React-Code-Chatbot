@@ -115,7 +115,7 @@ const ChatBotModal = ({ modalOpen, closeModal }) => {
                 </div>
               </div>
 
-              <div className="flex items-center input-container absolute bottom-4 w-[656px] h-[56px] rounded- [12px] border  ">
+              <div className="flex items-center input-container absolute bottom-4 w-[628px] h-[56px] rounded-[12px] border  ">
                 <input
                   type="text"
                   value={input}

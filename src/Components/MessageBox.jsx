@@ -22,7 +22,7 @@ function MessageBox({
         ""
       )}
       <div
-        className={` p-[12px] rounded-[12px] ${Synthetic}`}
+        className={` p-[12px] rounded-[12px] ${Synthetic} bg-white`}
         style={{ boxShadow: "0px 8px 64px 0px #03214F0A" }}
       >
         {messageTitle && <p className="">{messageTitle}</p>}
