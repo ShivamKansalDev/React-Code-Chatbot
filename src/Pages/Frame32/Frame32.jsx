@@ -6,8 +6,8 @@ import MessageUser from "../../Components/MessageBox";
 export const Frame32 = () => {
   return (
     <div className="px-3 py-3">
-      <div className="bg-white">
-        <h6 className="text-dark font-bold mb-5">
+      <div className="bg-white px-[12px] pb-3 rounded-xl">
+        <h6 className="text-dark font-bold mb-5 pt-2">
           Upload your room photo for real time preview
         </h6>
         <div className="bg-[#F5F9FE] border-[#C0D8FB] rounded-lg flex flex-col justify-center items-center py-5 border-dotted border-2">

@@ -16,7 +16,7 @@ function MessageBox({
         <img
           src={imageSrc}
           alt={altText}
-          className={`${customClass} w-[35px] h-auto cursor-pointer absolute -left-5 mt-1`}
+          className={`${customClass} w-[35px] h-auto cursor-pointer absolute -left-10 mt-1`}
         />
       ) : (
         ""
