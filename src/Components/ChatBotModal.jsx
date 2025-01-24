@@ -65,7 +65,7 @@ const ChatBotModal = ({ modalOpen, closeModal }) => {
             className="w-16 h-full cursor-pointer"
           />
           <div>
-            <p className="font-medium text-xl">MSI AI Assistant</p>
+            <p className="font-semibold text-[22px]">MSI AI Assistant</p>
             <p className="text-[#727681]">We are online to assist you</p>
           </div>
         </div>
