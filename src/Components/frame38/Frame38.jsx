@@ -13,7 +13,7 @@ const Frame38 = () => {
       />
       <MessageBox
         messageBody="Please choose an option to begin:"
-        customStyles="mt-3"
+        customStyles="mt-2"
       />
       <div className="flex justify-between gap-3 mb-16">
         <ImageComponent />

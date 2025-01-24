@@ -58,7 +58,7 @@ const ChatBotModal = ({ modalOpen, closeModal }) => {
     // The modal is conditionally rendered based on modalOpen
     modalOpen && (
       <div className="chatbot-container">
-        <div className="flex items-center gap-3 mb-3 p-3">
+        <div className="flex items-center gap-3  p-3">
           <img
             src={star}
             alt="arrow down"
@@ -72,7 +72,7 @@ const ChatBotModal = ({ modalOpen, closeModal }) => {
 
         <div className="relative bg-[#F7F8F9] rounded-[18px]  h-[559px]">
           <div className="chat-box overflow-y-scroll h-[493px]">
-            <div className=" rounded-[18px] p-[15px]">
+            <div className=" rounded-[18px]  px-[15px] pb-[15px]">
               <div className="relative bg-[#F7F8F9]  h-full px-5">
                 <div className="frames-start">
                   <div className="mb-5">
