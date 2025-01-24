@@ -1,12 +1,21 @@
 import image1 from "../assets/images/floorthumb-1.png";
 import image2 from "../assets/images/floorthumb-2.png";
 import location from "../assets/images/location.png";
+import rightIconImage from "../assets/images/arrow-icons.png";
 
 export const CardData = [
-  { title: "Katella Ash", pre: "Luxury Vinyl Flooring", image: image1 },
-  { title: "Katella Ash", pre: "Luxury Vinyl Flooring", image: image2 },
-  { title: "Katella Ash", pre: "Luxury Vinyl Flooring", image: image2 },
-  { title: "Katella Ash", pre: "Luxury Vinyl Flooring", image: image1 },
+  {
+    title: "Katella Ash",
+    pre: "Luxury Vinyl Flooring",
+    image: image1,
+    rightIcon: rightIconImage,
+  },
+  {
+    title: "Katella Ash",
+    pre: "Luxury Vinyl Flooring",
+    image: image2,
+    rightIcon: rightIconImage,
+  },
 ];
 
 export const Recommended_Options = [

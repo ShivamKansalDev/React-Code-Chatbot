@@ -13,7 +13,7 @@ export const Frame29 = () => {
               image={card.image}
               pre={card.pre}
               CardTextCenter="text-center"
-              // borderText="hidden"
+              rightIcon={card.rightIcon}
             />
           ))}
         </div>

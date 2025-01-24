@@ -1,5 +1,7 @@
 import UploadImage from "../../assets/images/house_upload.png";
 import imageFile from "../../assets/images/upload-image-file.png";
+import MessageUser from "../../Components/MessageUser";
+import user from "../../assets/images/user.png";
 
 export const Frame32 = () => {
   return (
@@ -13,6 +15,7 @@ export const Frame32 = () => {
           alt="Upload your room image"
           className="w-16 h-auto"
         />
+
         <h6 className="font-semibold">Upload your room image</h6>
         <p className="text-[12px] text-[#727681]">
           Drop your image here, or
@@ -20,11 +23,18 @@ export const Frame32 = () => {
         </p>
       </div>
       <div className="">
-        {/* <img
+        <div className="ab">
+          <img
+            src={user}
+            alt="Upload your room image"
+            className="h-auto w-10"
+          />
+        </div>
+        <img
           src={imageFile}
           alt="Upload your room image"
           className="w-full h-auto"
-        /> */}
+        />
       </div>
     </div>
   );
