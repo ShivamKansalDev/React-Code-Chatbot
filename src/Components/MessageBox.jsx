@@ -17,9 +17,9 @@ function MessageBox({
           className="w-[35px] h-auto cursor-pointer absolute -left-5 mt-1"
         />
       ) : (
-        <div className="w-[26px] h-[26px]"></div> // Empty div placeholder
+        ''
       )}
-      <div className="bg-white p-[12px] rounded-[12px]">
+      <div className="bg-white p-[12px] rounded-[12px]"  style={{"boxShadow": "0px 8px 64px 0px #03214F0A"}}>
         {messageTitle && <p className="">{messageTitle}</p>}
         <p className=" ">{messageBody}</p>
         {img && (
