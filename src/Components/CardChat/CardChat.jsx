@@ -11,6 +11,8 @@ export const CardChat = ({
   bottomText,
   borderHidden,
   rightIcon,
+  button1,
+  button2,
 }) => {
   const [isModalOpen, setModalOpen] = useState(false);
 
@@ -28,13 +30,15 @@ export const CardChat = ({
           </p>
           <div className={`${commonButton} flex gap-2`}>
             <button
-              className="text-[#1D73F2] border-0  bg-[#1D73F20F] rounded-full hover:bg-[#1D73F2] hover:text-[#fff] px-4 py-1"
+              className={`${button1} text-[#1D73F2] border-0  bg-[#1D73F20F] rounded-full hover:bg-[#1D73F2] hover:text-[#fff] px-4 py-1`}
               onClick={toggleModal}
             >
               View details
             </button>
 
-            <button className=" flex items-center gap-1 text-[#1D73F2] border border-[#1D73F2] py-1 px-[10px] rounded-full hover:bg-[#1D73F2] hover:text-[#fff]">
+            <button
+              className={`${button2}  flex items-center gap-1 text-[#1D73F2] border border-[#1D73F2] py-1 px-[10px] rounded-full hover:bg-[#1D73F2] hover:text-[#fff]`}
+            >
               I like this
               <img class="w-4 h-4" src={rightIcon} alt="rightIcon" />
             </button>
@@ -49,7 +53,7 @@ export const CardChat = ({
       {isModalOpen && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex  items-center justify-center z-50">
           <div className="bg-[#F7F8F9]  rounded-lg px-6 pb-6 pt-2 w-[87%] h-[90%] flex flex-col">
-            <div className="flex justify-end"> 
+            <div className="flex justify-end">
               <img
                 class=" cursor-pointer w-[32px] h-[32px] "
                 src={crossbutton}
@@ -59,9 +63,7 @@ export const CardChat = ({
             </div>
             <div className="flex-grow overflow-y-auto">
               <section class="text-gray-600 body-font bg-[#F7F8F9] rounded-lg">
-                <div
-                  class="container flex flex-col md:flex-row w-full" 
-                >
+                <div class="container flex flex-col md:flex-row w-full">
                   <div class="w-1/2">
                     <img class="" src={tile} alt="cross" />
                   </div>

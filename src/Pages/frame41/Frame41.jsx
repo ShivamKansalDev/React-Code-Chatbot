@@ -58,6 +58,8 @@ const Frame41 = () => {
                 CardTextCenter="text-center"
                 rightIcon={rightIcon}
                 // borderText="hidden"
+                button1="hidden"
+                button2="w-full justify-center"
               />
             ))}
           </div>
