@@ -65,7 +65,7 @@ export const CardChat = ({
               <section class="text-gray-600 body-font bg-[#F7F8F9] rounded-lg">
                 <div class="container flex flex-col md:flex-row w-full">
                   <div class="w-1/2">
-                    <img class="" src={tile} alt="cross" />
+                    <img class="w-full" src={tile} alt="cross" />
                   </div>
                   <div class="w-1/2 p-8">
                     <h1 class="text-4xl text-gray-800 sm:text-[24px] font-semibold title-font ">
