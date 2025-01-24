@@ -97,9 +97,6 @@ const ChatBotModal = ({ modalOpen, closeModal }) => {
                     <div className="">
                       {/* Ram start*/}
                       <div className="mb-5">
-                        <Frame29 />
-                      </div>
-                      <div className="mb-5">
                         <Frame31 />
                       </div>
                       <div className="mb-5">
@@ -128,7 +125,6 @@ const ChatBotModal = ({ modalOpen, closeModal }) => {
                         <Frame41 />
                       </div>
                     </div>
-                    
                   </div>
                 </div>
               </div>
