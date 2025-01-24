@@ -128,6 +128,7 @@ const ChatBotModal = ({ modalOpen, closeModal }) => {
                         <Frame41 />
                       </div>
                     </div>
+                    
                   </div>
                 </div>
               </div>
