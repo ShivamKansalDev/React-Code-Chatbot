@@ -141,6 +141,7 @@ const ChatBotModal = ({ modalOpen, closeModal }) => {
                     alt="dsfdfd"
                     className="w-[34px] h-[34px] cursor-pointer"
                   />
+
                   <img
                     src={send}
                     alt="hfdgfv"
