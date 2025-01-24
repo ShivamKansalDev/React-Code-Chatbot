@@ -1,4 +1,4 @@
-import image1 from "../../assets/images/floorthumb-3.png";
+import image1 from "../../assets/images/floorthumb-1.png";
 import MessageBox from "../../Components/MessageBox";
 import star from "../../assets/images/star.png";
 import rightArrow from "../../assets/images/rightArrow.png";
