@@ -73,49 +73,44 @@ const ChatBotModal = ({ modalOpen, closeModal }) => {
         <div className="relative bg-[#F7F8F9] rounded-[18px]  h-[559px]">
           <div className="chat-box overflow-y-scroll h-[493px]">
             <div className=" rounded-[18px] p-[15px]">
-              <Frame38 />
               <div className="relative bg-[#F7F8F9]  h-full">
-                <div className="">
-                  <div className="relative bg-[#F7F8F9]  h-full">
-                    <div className=" ">
-                      <Frame14 />
-                      <Frame15 />
-                      <Frame18 />
-                    </div>
+                <div className="frames-start">
+                  <div className="mb-5">
+                    <Frame38 />
+                  </div>
+                  <div className="mb-5">
+                    <Frame14 />
+                  </div>
+                  <div className="mb-5">
+                    <Frame15 />
+                  </div>
+                  <div className="mb-5">
+                    <Frame18 />
+                  </div>
+                  <div className="mb-5">
+                    <Frame16 />
                   </div>
                 </div>
-                <div className="relative bg-[#F7F8F9]  h-full">
-                  <div className="">
-                    <div className="mt-5">
-                      {/* <Frame29 /> */}
-                      <Frame16 />
-                    </div>
-
-                    {/* <Frame18 /> */}
+                <div className="frames-bottom">
+                  {/* Ram start*/}
+                  <div className="mb-5">
+                    <Frame31 />
                   </div>
-                  <div className="relative bg-[#F7F8F9]  h-full">
-                    <div className="">
-                      {/* Ram start*/}
-                      <div className="mb-5">
-                        <Frame31 />
-                      </div>
-                      <div className="mb-5">
-                        <Frame32 />
-                      </div>
-                      <div className="mb-5">
-                        <Frame33 />
-                      </div>
+                  <div className="mb-5">
+                    <Frame32 />
+                  </div>
+                  <div className="mb-5">
+                    <Frame33 />
+                  </div>
 
-                      <div className="mb-5">
-                        <Frame36 />
-                      </div>
-                      <div className="mb-5">
-                        <Frame41 />
-                      </div>
-                      <div className="mt-8">
-                        <Frame40 />
-                      </div>
-                    </div>
+                  <div className="mb-5">
+                    <Frame36 />
+                  </div>
+                  <div className="mb-5">
+                    <Frame41 />
+                  </div>
+                  <div className="mt-8">
+                    <Frame40 />
                   </div>
                 </div>
               </div>
