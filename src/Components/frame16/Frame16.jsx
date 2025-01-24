@@ -23,7 +23,7 @@ const Frame16 = () => {
         customStyles="mb-5"
       />
 
-      <div className="card-data px-8">
+      <div className="card-data">
         <div className="mb-5">
           <div class="grid grid-cols-2 gap-4 mb-4">
             {CardData.map((card, index) => (

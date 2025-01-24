@@ -66,10 +66,17 @@ const Frame41 = () => {
         </div>
       </div>
 
-      <MessageUser
+      {/* <MessageUser
         imageSrc={user}
         customStyles="mt-5"
         messageBody="Not Sure."
+      /> */}
+      <FaqComponent
+        altText=""
+        messageBody="Not Sure."
+        customStyles="mt-3"
+        imageSrc={rightArrow}
+        text=""
       />
     </>
   );
