@@ -8,3 +8,9 @@ body {
   margin: 0;
   padding: 0;
 }
+.customClass {
+  position: absolute !important;
+  left: 9rem !important;
+  margin-top: 6px;
+  width: 25px;
+}

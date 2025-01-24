@@ -6,21 +6,23 @@ function MessageBox({
   messageTitle,
   messageBody,
   img,
+  Synthetic,
   customStyles = "",
+  customClass = "",
 }) {
   return (
-    <div className={`flex gap-[10px] ${customStyles} `}>
+    <div className={`relative flex gap-[10px] ${customStyles} `}>
       {imageSrc ? (
         <img
           src={imageSrc}
           alt={altText}
-          className="w-[35px] h-auto cursor-pointer absolute -left-5 mt-1"
+          className={`${customClass} w-[35px] h-auto cursor-pointer absolute -left-5 mt-1`}
         />
       ) : (
         ""
       )}
       <div
-        className="bg-white p-[12px] rounded-[12px]"
+        className={` p-[12px] rounded-[12px] ${Synthetic}`}
         style={{ boxShadow: "0px 8px 64px 0px #03214F0A" }}
       >
         {messageTitle && <p className="">{messageTitle}</p>}

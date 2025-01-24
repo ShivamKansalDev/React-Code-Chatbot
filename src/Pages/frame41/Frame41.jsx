@@ -40,7 +40,8 @@ const Frame41 = () => {
           imageSrc={user}
           customStyles="mt-5"
           messageBody="Synthetic PVC."
-          customBg="bg-[#E8EDF2]"
+          Synthetic="bg-[#E8EDF2]"
+          customClass="customClass"
         />
       </div>
       <MessageBox
