@@ -23,28 +23,28 @@ const Frame33 = () => {
               messageBody="Know more about the product"
               customStyles="mt-3"
               imageSrc={rightArrow}
-              text="Budget Friendly"
+              // text="Budget Friendly"
             />
             <FaqComponent
               altText="dasds"
               messageBody="Show similar products"
               customStyles="   mt-3"
               imageSrc={rightArrow}
-              text="Expensive"
+              // text="Expensive"
             />
             <FaqComponent
               altText="dasds"
               messageBody="See lighter product options"
               customStyles="mt-3"
               imageSrc={rightArrow}
-              text="No Limit"
+              // text="No Limit"
             />
             <FaqComponent
               altText="dasds"
               messageBody="See lighter product options"
               customStyles="mt-3"
               imageSrc={rightArrow}
-              text="No Limit"
+              // text="No Limit"
             />
           </div>
         </div>

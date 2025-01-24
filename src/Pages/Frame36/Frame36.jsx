@@ -12,29 +12,6 @@ const Frame36 = () => {
     <>
       <div className="Frame36">
         <div className="mb-5">
-          <FaqComponent
-            altText="dasds"
-            messageBody="Show similar products"
-            customStyles="mt-3"
-            imageSrc={rightArrow}
-            text="Budget Friendly"
-          />
-          <FaqComponent
-            altText="dasds"
-            messageBody="See lighter product options"
-            customStyles="mt-3"
-            imageSrc={rightArrow}
-            text="Expensive"
-          />
-          <FaqComponent
-            altText="dasds"
-            messageBody="See darker product options"
-            customStyles="mt-3"
-            imageSrc={rightArrow}
-            text="No Limit"
-          />
-        </div>
-        <div className="mb-5">
           <MessageUser
             imageSrc={user}
             customStyles="mt-5"

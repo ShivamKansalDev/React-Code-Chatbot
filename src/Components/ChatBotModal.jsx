@@ -105,9 +105,9 @@ const ChatBotModal = ({ modalOpen, closeModal }) => {
                       <div className="mb-5">
                         <Frame33 />
                       </div>
-                      <div className="mb-5">
+                      {/* <div className="mb-5">
                         <Frame34 />
-                      </div>
+                      </div> */}
                       <div className="mb-5">
                         <Frame36 />
                       </div>
