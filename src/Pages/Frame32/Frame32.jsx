@@ -20,11 +20,11 @@ export const Frame32 = () => {
         </p>
       </div>
       <div className="">
-        {/* <img
+        <img
           src={imageFile}
           alt="Upload your room image"
           className="w-full h-auto"
-        /> */}
+        />
       </div>
     </div>
   );

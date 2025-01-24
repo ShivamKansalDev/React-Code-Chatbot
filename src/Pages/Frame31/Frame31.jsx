@@ -49,7 +49,7 @@ export const Frame31 = () => {
           />
         </div>
       </div>
-      <div>
+      {/* <div>
         <h6 className="text-dark font-bold mb-5">
           Upload your room photo for real time preview
         </h6>
@@ -65,7 +65,7 @@ export const Frame31 = () => {
             <span className="text-[#1D73F2] ms-2">browse</span>
           </p>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };
