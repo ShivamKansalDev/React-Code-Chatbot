@@ -39,11 +39,12 @@ const Frame41 = () => {
         imageSrc={user}
         customStyles="mt-5"
         messageBody="Synthetic PVC."
+        customBg="bg-[#E8EDF2]"
       />
       <MessageBox
         imageSrc={star}
         messageBody="Which design preference do you have in mind for your bathroom countertops?."
-        customStyles="mt-3"
+        customStyles="mt-5 mb-5"
       />
 
       <div>
@@ -65,18 +66,13 @@ const Frame41 = () => {
           </div>
         </div>
       </div>
-
-      {/* <MessageUser
-        imageSrc={user}
-        customStyles="mt-5"
-        messageBody="Not Sure."
-      /> */}
       <FaqComponent
         altText=""
         messageBody="Not Sure."
         customStyles="mt-3"
         imageSrc={rightArrow}
         text=""
+        customBg="border-[#1D73F2] border"
       />
     </>
   );

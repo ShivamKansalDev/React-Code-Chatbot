@@ -49,6 +49,7 @@ const Frame34 = () => {
             imageSrc={user}
             customStyles="mt-5"
             messageBody="Know more about the product"
+            customBg="bg-[#E8EDF2]"
           />
         </div>
       </div>
