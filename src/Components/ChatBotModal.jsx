@@ -21,8 +21,6 @@ import Frame15 from "./frame15/Frame15";
 import Frame18 from "./frame18/Frame18";
 import { Frame32 } from "../Pages/Frame32/Frame32";
 import Frame16 from "./frame16/Frame16";
-import Frame40 from "./frame40/Frame40";
-import Frame41 from "./frame41/Frame41";
 
 import Frame33 from "../Pages/Frame33/Frame33";
 import Frame34 from "../Pages/Frame34/Frame34";
@@ -130,7 +128,6 @@ const ChatBotModal = ({ modalOpen, closeModal }) => {
                         <Frame41 />
                       </div>
                     </div>
-                   
                   </div>
                 </div>
               </div>
