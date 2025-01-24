@@ -27,7 +27,7 @@ export const Frame32 = () => {
         <img
           src={user}
           alt="user"
-          className="w-[30px] h-auto cursor-pointer absolute -right-2 mt-14"
+          className="w-[30px] h-auto cursor-pointer absolute -right-0 mt-14"
         />
         <img
           src={imageFile}
