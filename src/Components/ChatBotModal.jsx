@@ -73,7 +73,7 @@ const ChatBotModal = ({ modalOpen, closeModal }) => {
         <div className="relative bg-[#F7F8F9] rounded-[18px]  h-[559px]">
           <div className="chat-box overflow-y-scroll h-[493px]">
             <div className=" rounded-[18px] p-[15px]">
-              <div className="relative bg-[#F7F8F9]  h-full">
+              <div className="relative bg-[#F7F8F9]  h-full px-5">
                 <div className="frames-start">
                   <div className="mb-5">
                     <Frame38 />
