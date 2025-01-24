@@ -36,26 +36,20 @@ export const CardDataBottm = [
 export const CardWithLocation = [
   {
     title: "Katella Ash",
-    pre: "Luxury Vinyl Flooring",
-    bottomText: "I like this one",
+    pre: "Lux7950 Troon Cir, Austell, GA 30168, USA",
+    bottomText: "View website",
     image: location,
   },
   {
-    title: "Msi Alanata",
-    pre: "dasdnsadksalkdsaldsaj",
-    bottomText: "View website",
+    title: "Moda Floors & Interiors",
+    pre: "1417 Chattahoochee Ave NW, Atlanta, GA 30318, USA",
+    bottomText: "",
     image: location, // Change to your image if needed
   },
   {
-    title: "Msi Alanata",
-    pre: "dasdnsadksalkdsaldsaj",
-    bottomText: "View website",
-    image: location, // Change to your image if needed
-  },
-  {
-    title: "Msi Alanata",
-    pre: "dasdnsadksalkdsaldsaj",
-    bottomText: "View website",
+    title: "Home Depot",
+    pre: "650 Ponce De Leon Ave NE, Atlanta, GA 30308, USA",
+    bottomText: "",
     image: location, // Change to your image if needed
   },
 ];

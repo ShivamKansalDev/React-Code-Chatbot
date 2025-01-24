@@ -6,10 +6,11 @@ function MessageUser({
   messageTitle,
   messageBody,
   customStyles = "",
+  customBg = "",
 }) {
   return (
     <div className={`flex justify-end  gap-[10px] ${customStyles}`}>
-      <div className="bg-white p-[12px] rounded-[12px]">
+      <div className={`p-[12px] rounded-[12px] ${customBg}`}>
         {messageTitle && <p className="font-bold">{messageTitle}</p>}
         <p>{messageBody}</p>
       </div>

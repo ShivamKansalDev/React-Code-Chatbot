@@ -7,10 +7,13 @@ function FaqComponent({
   messageBody,
   text,
   customStyles = "",
+  customBg = "",
 }) {
   return (
     <div className={`flex   rounded-[12px]  gap-[10px] ${customStyles}`}>
-      <div className=" flex justify-between items-center bg-white w-full  p-[12px] rounded-[100px]">
+      <div
+        className={`flex justify-between items-center bg-white w-full  p-[12px] rounded-[100px] ${customBg}`}
+      >
         <div className="flex items-center justify-between gap-4">
           {messageTitle && <p className="font-bold">{messageTitle}</p>}
           <p>{messageBody}</p>

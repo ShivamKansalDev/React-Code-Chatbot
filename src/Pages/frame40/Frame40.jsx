@@ -13,14 +13,26 @@ const Frame40 = () => {
       <MessageUser
         imageSrc={user}
         customStyles="mt-5"
+        messageBody="Not Sure"
+        customBg="bg-[#E8EDF2]"
+      />
+      <MessageUser
+        imageSrc={user}
+        customStyles="mt-5"
         messageBody="Synthetic PVC."
+        customBg="bg-[#E8EDF2]"
       />
       <MessageBox
         imageSrc={star}
         messageBody="Could you please share your zip code or city so I can find the nearest store for you?."
         customStyles="mt-3"
       />
-      <MessageUser imageSrc={user} customStyles="mt-5" messageBody="30318" />
+      <MessageUser
+        imageSrc={user}
+        customStyles="mt-5"
+        messageBody="30318"
+        customBg="bg-[#E8EDF2]"
+      />
       <MessageBox
         imageSrc={star}
         messageBody="The closest MSI showroom and MSI dealers to you are as follows:"
@@ -35,15 +47,17 @@ const Frame40 = () => {
             className="w-[40px] h-[40px] cursor-pointer"
           />
           <div>
-            <p>{item.title}</p>
-            <p>{item.pre}</p>
-
+            <p className="text-[#171717] text-[16px] font-semibold">
+              {item.title}
+            </p>
+            <p className="text-[#727681] text-[13px]">{item.pre}</p>
             <div className="flex gap-2 mt-3">
-              <button className="text-[#1D73F2] border-0  bg-[#1D73F20F] rounded-full hover:bg-[#1D73F2] hover:text-[#fff] px-4 py-1">
-                {item.bottomText}
-              </button>
-
-              <button className="flex items-center gap-1 text-[#1D73F2] border border-[#1D73F2] py-1 px-[10px] rounded-full hover:bg-[#1D73F2] hover:text-[#fff]">
+              {item.bottomText == "View website" && (
+                <button className="text-[#1D73F2] border-0 bg-[#1D73F20F] rounded-full hover:bg-[#1D73F2] hover:text-[#fff] px-6 py-1">
+                  {item.bottomText}
+                </button>
+              )}
+              <button className="flex items-center gap-1 text-[#1D73F2] border border-[#1D73F2] py-1 px-6 rounded-full hover:bg-[#1D73F2] hover:text-[#fff]">
                 Get Direction
                 <img className="w-4 h-4" src={rightIcon} alt="rightIcon" />
               </button>
