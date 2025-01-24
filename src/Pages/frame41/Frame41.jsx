@@ -35,12 +35,14 @@ const Frame41 = () => {
         text="No Limit"
       />
 
-      <MessageUser
-        imageSrc={user}
-        customStyles="mt-5"
-        messageBody="Synthetic PVC."
-        customBg="bg-[#E8EDF2]"
-      />
+      <div className="flex justify-end">
+        <MessageUser
+          imageSrc={user}
+          customStyles="mt-5"
+          messageBody="Synthetic PVC."
+          customBg="bg-[#E8EDF2]"
+        />
+      </div>
       <MessageBox
         imageSrc={star}
         messageBody="Which design preference do you have in mind for your bathroom countertops?."
