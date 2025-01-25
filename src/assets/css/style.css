@@ -47,15 +47,18 @@ body {
 
 .scanner {
   position: absolute;
-  bottom: 0;
+  bottom: 20px;
   left: 0;
-  width: 100%;
-  height: auto;
+  right: 0;
+  width: 93%;
+  margin: 0 auto;
+  height: 88%;
   background: linear-gradient(
     180deg,
     rgba(29, 115, 242, 0.6) 0%,
     rgba(29, 115, 242, 0.1) 100%
   );
+  border-radius: 0.5rem;
   animation: scanEffect 3s infinite;
 }
 
@@ -64,7 +67,7 @@ body {
     height: 0;
   }
   50% {
-    height: 100%;
+    height: 88%;
   }
   100% {
     height: 0;

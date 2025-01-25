@@ -30,11 +30,13 @@ export const Frame32 = () => {
           className="w-[30px] h-auto cursor-pointer absolute -right-2"
         />
         <div className="scanner-imageFile">
-          <img
-            src="https://media.designcafe.com/wp-content/uploads/2020/05/14155258/modern-bedroom-designs-in-bangalore-mumbai-hyderabad.jpg.jpg"
-            alt="Upload your room image"
-            className="w-full h-auto bg-[#E8EDF2]"
-          />
+          <div className="bg-[#E8EDF2] p-4 rounded-lg">
+            <img
+              src="https://media.designcafe.com/wp-content/uploads/2020/05/14155258/modern-bedroom-designs-in-bangalore-mumbai-hyderabad.jpg.jpg"
+              alt="Upload your room image"
+              className="w-full h-auto rounded-lg"
+            />
+          </div>
           <div className="scanner"></div>
         </div>
       </div>
