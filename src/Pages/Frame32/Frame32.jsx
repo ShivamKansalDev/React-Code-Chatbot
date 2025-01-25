@@ -33,7 +33,7 @@ export const Frame32 = () => {
           <img
             src="https://media.designcafe.com/wp-content/uploads/2020/05/14155258/modern-bedroom-designs-in-bangalore-mumbai-hyderabad.jpg.jpg"
             alt="Upload your room image"
-            className="w-full h-auto bg-[#E8EDF2] p-4 rounded-lg"
+            className="w-full h-auto bg-[#E8EDF2]"
           />
           <div className="scanner"></div>
         </div>
