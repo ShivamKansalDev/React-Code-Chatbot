@@ -4,7 +4,7 @@ import ImageComponent from "../ImageComponent";
 import star from "../../assets/images/star.png";
 import user from "../../assets/images/user.png";
 import MessageUser from "../MessageUser";
-import loadingImage from "../../assets/images/loadingImage.png";
+import loadingImage from "../../assets/images/Group.png";
 
 const Frame14 = () => {
   return (

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import crossbutton from "../../assets/images/crossButton.png";
 import tile from "../../assets/images/tile.png";
+import fullexpand from "../../assets/images/full-expand.png";
 
 export const CardChat = ({
   title,
@@ -19,16 +20,29 @@ export const CardChat = ({
   // Function to toggle modal visibility
   const toggleModal = () => setModalOpen(!isModalOpen);
 
+  const [isPopupVisible, setIsPopupVisible] = useState(false);
+
+  const handleOpenPopup = () => {
+    setIsPopupVisible(true);
+  };
+
+  const handleClosePopup = () => {
+    setIsPopupVisible(false);
+  };
   return (
     <>
       <div class="max-w-sm   overflow-hidden shadow-lg bg-white rounded-xl">
         <img class="w-full p-2" src={image} alt="Sunset in the mountains" />
         <div class="px-3 py-4 text-center ">
-          <div class={`font-semibold text-[16px] ${CardTextCenter}`}>{title}</div>
+          <div class={`font-semibold text-[16px] ${CardTextCenter}`}>
+            {title}
+          </div>
           <p className={`text-[12px] mb-2 text-[#727681] ${CardTextCenter}`}>
             {pre}
           </p>
-          <div className={`${commonButton} flex md:gap-3 lg:justify-between md:flex-col lg:flex-row `}>
+          <div
+            className={`${commonButton} flex md:gap-3 lg:justify-between md:flex-col lg:flex-row `}
+          >
             <button
               className={`${button1} text-[#1D73F2] border-0  bg-[#1D73F20F] rounded-full  px-4 py-1`}
               onClick={toggleModal}
@@ -52,7 +66,7 @@ export const CardChat = ({
       {/* Modal */}
       {isModalOpen && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex  items-center justify-center z-50">
-          <div className="bg-[#F7F8F9]  rounded-lg px-6 pb-6 pt-2 w-[87%] h-[90%] flex flex-col">
+          <div className="bg-[#F7F8F9]  rounded-lg px-6 pb-6 pt-2 md:w-[87%] md:h-[100%] lg:h-auto flex flex-col">
             <div className="flex justify-end">
               <img
                 class=" cursor-pointer w-[32px] h-[32px] "
@@ -61,13 +75,38 @@ export const CardChat = ({
                 alt="cross"
               />
             </div>
-            <div className="flex-grow overflow-y-auto">
+            <div className="flex-grow">
               <section class="text-gray-600 body-font bg-[#F7F8F9] rounded-lg">
                 <div class="container flex flex-col lg:flex-row w-full">
-                  <div class="md:w-full  lg:w-1/2">
-                    <img class="w-full" src={tile} alt="cross" />
+                  <div>
+                    {isPopupVisible && (
+                      <div className="popup relative">
+                        <div className="popup-content">
+                          <button
+                            className="absolute right-5 top-3 text-xl bg-[#fff] px-3 py-1 rounded-full"
+                            onClick={handleClosePopup}
+                          >
+                            X
+                          </button>
+                          <img className="popup-image" src={tile} alt="cross" />
+                        </div>
+                      </div>
+                    )}
                   </div>
-                  <div class=" md:mt-5 lg:mt-0 lg:w-1/2 lg:p-8">
+                  <div class="md:w-full lg:w-1/2 relative">
+                    <img
+                      className="w-12 h-auto absolute right-2 top-2 bg-[#fff] px-3 py-3 rounded-md cursor-pointer"
+                      src={fullexpand}
+                      alt="cross"
+                      onClick={handleOpenPopup}
+                    />
+                    <img
+                      class="w-full md:h-[350px] lg:h-[100%]"
+                      src={tile}
+                      alt="cross"
+                    />
+                  </div>
+                  <div class=" md:mt-5 lg:mt-0 lg:w-1/2 lg:p-8 overflow-y-auto md:h-[350px] lg:h-auto">
                     <h1 class="text-4xl text-gray-800 sm:text-[24px] font-semibold title-font ">
                       Lenexa Creek
                     </h1>

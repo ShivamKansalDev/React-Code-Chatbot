@@ -14,3 +14,25 @@ body {
   margin-top: 6px;
   width: 25px;
 }
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 9999;
+  width: 90%;
+  border-radius: 30px;
+}
+
+.popup-content {
+  width: 100%;
+}
+
+.popup-image {
+  width: 100%;
+  height: auto;
+  max-height: 690px;
+}

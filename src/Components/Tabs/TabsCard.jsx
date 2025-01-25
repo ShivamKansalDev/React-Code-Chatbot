@@ -10,10 +10,10 @@ const TabsCard = () => {
     <>
       <div className="p-4  bg-white shadow-md rounded-lg">
         {/* Tab Buttons */}
-        <div className="border-[#E9EEF7] border rounded-t-lg p-2 mb-5">
+        <div className="border-[#E9EEF7] border rounded-t-lg p-2 mb-5 bg-[#F7F8F9]">
           <div className="flex justify-center space-x-4">
             <button
-              className={`px-3 py-1 font-semibold ${
+              className={`px-3 py-1 ${
                 activeTab === "tab1"
                   ? "border-[#1D73F2] text-[#1D73F2] hover:bg-[#fff]"
                   : "border-none hover:bg-[#fff]"
@@ -23,7 +23,7 @@ const TabsCard = () => {
               Description
             </button>
             <button
-              className={`px-3 py-1 font-semibold ${
+              className={`px-3 py-1 ${
                 activeTab === "tab2"
                   ? "border-[#1D73F2] text-[#1D73F2] hover:bg-[#fff]"
                   : "border-none hover:bg-[#fff]"
@@ -33,7 +33,7 @@ const TabsCard = () => {
               Specifications
             </button>
             <button
-              className={`px-3 py-1 font-semibold ${
+              className={`px-3 py-1 ${
                 activeTab === "tab3"
                   ? "border-[#1D73F2] text-[#1D73F2] hover:bg-[#fff]"
                   : "border-none hover:bg-[#fff]"
@@ -45,7 +45,7 @@ const TabsCard = () => {
             <div class="relative inline-block text-left">
               <div class="group">
                 <button
-                  className={`flex px-3 py-1 font-semibold ${
+                  className={`flex px-3 py-1 ${
                     activeTab === "tab4"
                       ? "border-[#1D73F2] text-[#1D73F2] hover:bg-[#fff]"
                       : "border-none hover:bg-[#fff]"

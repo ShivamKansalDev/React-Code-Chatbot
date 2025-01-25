@@ -122,6 +122,7 @@ const ChatBotModal = ({ modalOpen, closeModal }) => {
                   onChange={(e) => setInput(e.target.value)}
                   onKeyPress={(e) => e.key === "Enter" && handleSendMessage()}
                   placeholder="Write a message..."
+                  className="outline-none"
                 />
 
                 <div className="flex">

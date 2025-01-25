@@ -31,7 +31,7 @@ function MessageBox({
           <img
             src={img}
             alt={altText}
-            className="w-[90px] h-[41px] cursor-pointer"
+            className="w-[45px] h-auto cursor-pointer"
           />
         )}
       </div>
