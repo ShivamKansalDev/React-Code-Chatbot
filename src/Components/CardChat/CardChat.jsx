@@ -22,25 +22,25 @@ export const CardChat = ({
   return (
     <>
       <div class="max-w-sm   overflow-hidden shadow-lg bg-white rounded-xl">
-        <img class="w-full" src={image} alt="Sunset in the mountains" />
+        <img class="w-full p-2" src={image} alt="Sunset in the mountains" />
         <div class="px-3 py-4 text-center ">
-          <div class={`font-bold ${CardTextCenter}`}>{title}</div>
-          <p className={`text-[10px] mb-2 text-[#727681] ${CardTextCenter}`}>
+          <div class={`font-semibold text-[16px] ${CardTextCenter}`}>{title}</div>
+          <p className={`text-[12px] mb-2 text-[#727681] ${CardTextCenter}`}>
             {pre}
           </p>
-          <div className={`${commonButton} flex gap-2`}>
+          <div className={`${commonButton} flex md:gap-3 lg:justify-between md:flex-col lg:flex-row `}>
             <button
-              className={`${button1} text-[#1D73F2] border-0  bg-[#1D73F20F] rounded-full hover:bg-[#1D73F2] hover:text-[#fff] px-4 py-1`}
+              className={`${button1} text-[#1D73F2] border-0  bg-[#1D73F20F] rounded-full  px-4 py-1`}
               onClick={toggleModal}
             >
               View details
             </button>
 
             <button
-              className={`${button2}  flex items-center gap-1 text-[#1D73F2] border border-[#1D73F2] py-1 px-[10px] rounded-full hover:bg-[#1D73F2] hover:text-[#fff]`}
+              className={`${button2}  flex items-center justify-center gap-1 text-[#1D73F2] border border-[#1D73F2] py-1 px-[10px] rounded-full `}
             >
               I like this
-              <img class="w-4 h-4" src={rightIcon} alt="rightIcon" />
+              <img class=" w-auto h-auto" src={rightIcon} alt="rightIcon" />
             </button>
           </div>
 
@@ -63,21 +63,21 @@ export const CardChat = ({
             </div>
             <div className="flex-grow overflow-y-auto">
               <section class="text-gray-600 body-font bg-[#F7F8F9] rounded-lg">
-                <div class="container flex flex-col md:flex-row w-full">
-                  <div class="w-1/2">
+                <div class="container flex flex-col lg:flex-row w-full">
+                  <div class="md:w-full  lg:w-1/2">
                     <img class="w-full" src={tile} alt="cross" />
                   </div>
-                  <div class="w-1/2 p-8">
+                  <div class=" md:mt-5 lg:mt-0 lg:w-1/2 lg:p-8">
                     <h1 class="text-4xl text-gray-800 sm:text-[24px] font-semibold title-font ">
                       Lenexa Creek
                     </h1>
-                    <p>
+                    <p className="md:pb-5 ">
                       Discover the subtle allure of Lenexa Creek Luxury Vinyl
                       Planks, showcasing neutral blonde tones complemented by
                       natural knots and grains.
                     </p>
 
-                    <div>
+                    <div className="pb-5">
                       <div className="border border-[#DAE3F1] bg-[#F0F2F4] p-2 rounded-lg text-lg font-semibold">
                         Aesthetics Details
                       </div>

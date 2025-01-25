@@ -4,7 +4,7 @@ import star from "../../assets/images/star.png";
 import user from "../../assets/images/user.png";
 import location from "../../assets/images/location.png";
 import MessageUser from "../../Components/MessageBox";
-import rightIcon from "../../assets/images/arrow-icons.png";
+import rightIcon from "../../assets/images/arrow-narrow-right.svg";
 import rightArrow from "../../assets/images/rightArrow.png";
 import { CardData2 } from "../../utils/data";
 import FaqComponent from "../../Components/FaqComponent";

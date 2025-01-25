@@ -8,9 +8,10 @@ function FaqComponent({
   text,
   customStyles = "",
   customBg = "",
+  border
 }) {
   return (
-    <div className={`flex   rounded-[12px]  gap-[10px] ${customStyles}`}>
+    <div className={`flex   rounded-[12px]  gap-[10px] ${customStyles} ${border}`}>
       <div
         className={`flex justify-between items-center bg-white w-full  py-[10px] px-[16px] rounded-[100px] ${customBg}`}
       >

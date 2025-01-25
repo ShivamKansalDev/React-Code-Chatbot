@@ -23,6 +23,7 @@ const Frame33 = () => {
               messageBody="Know more about the product"
               customStyles="mt-3"
               imageSrc={rightArrow}
+              border="border-[#1D73F2]"
               // text="Budget Friendly"
             />
             <FaqComponent

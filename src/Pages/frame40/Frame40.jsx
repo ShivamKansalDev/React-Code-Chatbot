@@ -4,7 +4,7 @@ import star from "../../assets/images/star.png";
 import user from "../../assets/images/user.png";
 import location from "../../assets/images/location.png";
 import MessageUser from "../../Components/MessageUser";
-import rightIcon from "../../assets/images/arrow-icons.png";
+import rightIcon from "../../assets/images/arrow-narrow-right.svg";
 import { CardWithLocation } from "../../utils/data";
 
 const Frame40 = () => {

@@ -8,7 +8,7 @@ import MessageUser from "../MessageUser";
 import loadingImage from "../../assets/images/loadingImage.png";
 import { CardData, CardDataBottm, Recommended_Options } from "../../utils/data";
 import { CardChat } from "../CardChat/CardChat";
-import rightIcon from "../../assets/images/arrow-icons.png";
+import rightIcon from "../../assets/images/arrow-narrow-right.svg";
 
 const Frame16 = () => {
   const [isModalOpen, setModalOpen] = useState(false);
@@ -62,8 +62,8 @@ const Frame16 = () => {
                 alt="cross"
               />
             </div>
-            <div className="flex-grow overflow-y-auto">
-              <div class="grid grid-cols-4 gap-4 mb-4 overflow-y-scroll overflow-hidden  ">
+            <div className="flex-grow overflow-y-auto ">
+              <div class="py-3 grid md:grid-cols-3 lg:grid-cols-4 gap-4 mb-4 overflow-y-scroll overflow-hidden  ">
                 {Recommended_Options.map((card, index) => (
                   <CardChat
                     key={index}

@@ -8,8 +8,20 @@ export const Frame31 = () => {
   return (
     <>
       <div className="flex justify-end mb-5">
-        <div class="max-w-sm rounded overflow-hidden  bg-[#E8EDF2]">
+        <div class="max-w-sm  overflow-hidden p-3 rounded-xl bg-[#E8EDF2]">
+          <img
+            src="/src/assets/images/user.png"
+            alt="user"
+            class="w-[30px] h-auto cursor-pointer absolute -right-4 -mt-4"
+          />
           <img class="w-full" src={image1} alt="Sunset in the mountains" />
+          <p className="font-semibold text-base">Katella Ash</p>
+          <p
+            className="text-[#727681] text-xs pb-2 "
+            style={{ borderBottom: "1px solid #CED9E3" }}
+          >
+            Luxury Vinyl Flooring
+          </p>
           <div class="px-6 py-4 text-center ">
             <div className="text-end">I like this one</div>
           </div>
