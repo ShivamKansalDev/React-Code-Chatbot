@@ -125,7 +125,7 @@ const ChatBotModal = ({ modalOpen, closeModal }) => {
                   className="outline-none"
                 />
 
-                <div className="flex">
+                <div className="flex items-center">
                   <img
                     src={attachment}
                     alt="dsfdfd"

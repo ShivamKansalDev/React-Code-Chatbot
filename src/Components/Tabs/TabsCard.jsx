@@ -45,7 +45,7 @@ const TabsCard = () => {
             <div class="relative inline-block text-left">
               <div class="group">
                 <button
-                  className={`flex px-3 py-1 ${
+                  className={`flex items-center px-3 py-1 ${
                     activeTab === "tab4"
                       ? "border-[#1D73F2] text-[#1D73F2] hover:bg-[#fff]"
                       : "border-none hover:bg-[#fff]"

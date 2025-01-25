@@ -1,6 +1,6 @@
 import React from "react";
 import MessageBox from "../../Components/MessageBox";
-import star from "../../assets/images/star.png";
+import star from "../../assets/images/Frame-7.png";
 import user from "../../assets/images/user.png";
 import location from "../../assets/images/location.png";
 import MessageUser from "../../Components/MessageBox";

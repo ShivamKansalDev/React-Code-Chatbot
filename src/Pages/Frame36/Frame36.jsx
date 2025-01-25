@@ -1,6 +1,6 @@
 import React from "react";
 import MessageBox from "../../Components/MessageBox";
-import star from "../../assets/images/star.png";
+import star from "../../assets/images/Frame-7.png";
 import FaqComponent from "../../Components/FaqComponent";
 import rightArrow from "../../assets/images/rightArrow.png";
 import MessageUser from "../../Components/MessageUser";

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import MessageBox from "../MessageBox";
 import ImageComponent from "../ImageComponent";
-import star from "../../assets/images/star.png";
+import star from "../../assets/images/Frame-7.png";
 import crossbutton from "../../assets/images/crossButton.png";
 import user from "../../assets/images/user.png";
 import MessageUser from "../MessageUser";

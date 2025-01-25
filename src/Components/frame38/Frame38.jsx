@@ -1,7 +1,7 @@
 import React from "react";
 import MessageBox from "../MessageBox";
 import ImageComponent from "../ImageComponent";
-import star from "../../assets/images/star.png";
+import star from "../../assets/images/Frame-7.png";
 
 const Frame38 = () => {
   return (
