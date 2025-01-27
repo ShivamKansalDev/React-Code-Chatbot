@@ -62,7 +62,7 @@ export const CardChat = ({
             <div className="md:w-full lg:w-1/2 md:h-[auto] lg:h-auto">
               <div className="relative">
                 <img
-                  className="lg:w-full lg:h-[100%] md:h-[250px] md:w-full p-2"
+                  className="lg:w-full lg:h-[100%] md:h-[280px] md:w-full p-2"
                   src={tile}
                   alt="cross"
                 />
