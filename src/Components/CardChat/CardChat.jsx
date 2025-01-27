@@ -66,7 +66,7 @@ export const CardChat = ({
                   src={tile}
                   alt="cross"
                 />
-                <div className="absolute md:-bottom-1 lg:bottom-0 left-0 right-0 flex justify-center mb-4">
+                <div className="absolute md:-bottom-2 lg:bottom-0 left-0 right-0 flex justify-center mb-4">
                   <button className="text-md bg-[#fff] px-10 py-2 rounded-full">
                     Click on Product to Zoom
                   </button>
@@ -83,7 +83,7 @@ export const CardChat = ({
               </div>
             </div>
             <div class="rounded-lg md:w-full lg:w-1/2 text-gray-600 body-font bg-[#F7F8F9] overflow-y-auto lg:h-auto">
-              <h1 class="text-4xl text-gray-800 sm:text-[24px] font-semibold title-font ">
+              <h1 class="text-4xl text-gray-800 sm:text-[24px] font-semibold title-font mb-3 mt-4">
                 Lenexa Creek
               </h1>
               <p className="md:pb-5 ">
@@ -96,19 +96,21 @@ export const CardChat = ({
                 <div className="border border-[#DAE3F1] bg-[#F0F2F4] p-2 rounded-lg text-lg font-semibold">
                   Aesthetics Details
                 </div>
-                <div className="flex  space-x-36 p-2">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 p-2">
                   <div>
                     <p className="text-[#727681] font-normal">Color</p>
                     <p className="font-semibold">Blonde</p>
                   </div>
                   <div>
-                    <p className="text-[#727681] font-normal">Color</p>
-                    <p className="font-semibold">Blonde</p>
+                    <p className="text-[#727681] font-normal">
+                      Shade Variations
+                    </p>
+                    <p className="font-semibold">HIGH</p>
                   </div>
                 </div>
                 <div className="p-2">
-                  <p className="text-[#727681] font-normal">Color</p>
-                  <p className="font-semibold">Blonde</p>
+                  <p className="text-[#727681] font-normal">Style</p>
+                  <p className="font-semibold">Wood</p>
                 </div>
               </div>
 
@@ -117,7 +119,7 @@ export const CardChat = ({
                 <div className="border p-2 border-[#DAE3F1] bg-[#F0F2F4] rounded-lg text-lg font-semibold mb-3">
                   Technical Details
                 </div>
-                <div className="flex space-x-20 mb-2 px-2">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 p-2">
                   <div>
                     <p className="text-[#727681] font-normal">Category</p>
                     <p className="font-semibold">Luxury Vinyl Flooring</p>
@@ -127,7 +129,7 @@ export const CardChat = ({
                     <p className="font-semibold">6.5MM</p>
                   </div>
                 </div>
-                <div className="flex  space-x-40 px-2">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 p-2">
                   <div>
                     <p className="text-[#727681] font-normal">Wear Layer</p>
                     <p className="font-semibold">20MIL</p>
