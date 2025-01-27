@@ -3,14 +3,14 @@ import MessageBox from "../../Components/MessageBox";
 import star from "../../assets/images/Frame-7.png";
 import rightArrow from "../../assets/images/rightArrow.png";
 import FaqComponent from "../../Components/FaqComponent";
-import UploadImage from "../../assets/images/house_upload.png";
+import user from "../../assets/images/user.png";
 export const Frame31 = () => {
   return (
     <>
       <div className="flex justify-end mb-5">
         <div class="max-w-sm  overflow-hidden p-3 rounded-xl bg-[#E8EDF2]">
           <img
-            src="/src/assets/images/user.png"
+            src={user}
             alt="user"
             class="w-[30px] h-auto cursor-pointer absolute -right-4 -mt-4"
           />
