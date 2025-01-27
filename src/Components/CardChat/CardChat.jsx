@@ -58,14 +58,14 @@ export const CardChat = ({
       {/* Modal */}
       {isModalOpen && (
         <div className="fixed top-0 left-0 right-0 bottom-0 bg-black bg-opacity-50 z-50 flex items-center justify-center rounded-lg">
-          <div className="bg-[#F7F8F9] lg:w-[80%] lg:h-auto md:w-[70%] md:h-[90%] rounded-lg md:block lg:flex relative">
+          <div className="bg-[#F7F8F9] lg:w-[80%] lg:h-auto md:w-[70%] md:h-auto rounded-lg md:block lg:flex relative">
             <div className="md:w-full lg:w-1/2 md:h-[auto] lg:h-auto">
               <img
                 className="lg:w-full lg:h-[100%] md:h-[250px] md:w-full p-2"
                 src={tile}
                 alt="cross"
               />
-              <div className="absolute md:bottom-[220px] lg:-bottom-1 left-[160px] flex justify-center mb-4">
+              <div className="absolute md:bottom-[196px] lg:-bottom-1 left-[160px] flex justify-center mb-4">
                 <button className="text-md bg-[#fff] px-3 py-2 rounded-full">
                   Click on Product to Zoom
                 </button>
