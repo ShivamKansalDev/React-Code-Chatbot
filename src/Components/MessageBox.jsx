@@ -28,11 +28,16 @@ function MessageBox({
         {messageTitle && <p className="">{messageTitle}</p>}
         <p className=" ">{messageBody}</p>
         {img && (
-          <img
-            src={img}
-            alt={altText}
-            className="w-[45px] h-auto cursor-pointer"
-          />
+          <div class="dots">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+          </div>
+          // <img
+          //   src={img}
+          //   alt={altText}
+          //   className="w-[45px] h-auto cursor-pointer"
+          // />
         )}
       </div>
     </div>

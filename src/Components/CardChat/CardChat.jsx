@@ -31,9 +31,9 @@ export const CardChat = ({
   };
   return (
     <>
-      <div class="max-w-sm   overflow-hidden shadow-lg bg-white rounded-xl">
-        <img class="w-full p-2" src={image} alt="Sunset in the mountains" />
-        <div class="px-3 py-4 text-center ">
+      <div class="max-w-sm overflow-hidden shadow-lg bg-white rounded-xl p-2">
+        <img class="w-full h-auto" src={image} alt="Sunset in the mountains" />
+        <div class="py-4 text-center ">
           <div class={`font-semibold text-[16px] ${CardTextCenter}`}>
             {title}
           </div>
@@ -41,17 +41,17 @@ export const CardChat = ({
             {pre}
           </p>
           <div
-            className={`${commonButton} flex md:gap-3 lg:justify-between md:flex-col lg:flex-row `}
+            className={`${commonButton} flex md:gap-2 lg:justify-between md:flex-col lg:flex-row `}
           >
             <button
-              className={`${button1} text-[#1D73F2] border-0  bg-[#1D73F20F] rounded-full  px-4 py-1`}
+              className={`${button1} text-[#1D73F2] border-0  bg-[#1D73F20F] rounded-full  px-5 py-1 md:text-[14px] lg:text-[14px]`}
               onClick={toggleModal}
             >
               View details
             </button>
 
             <button
-              className={`${button2}  flex items-center justify-center gap-1 text-[#1D73F2] border border-[#1D73F2] py-1 px-[10px] rounded-full `}
+              className={`${button2}  flex items-center justify-center gap-1 text-[#1D73F2] border border-[#1D73F2] md:text-[14px] lg:text-[14px] py-1 px-5 rounded-full `}
             >
               I like this
               <img class=" w-auto h-auto" src={rightIcon} alt="rightIcon" />
@@ -120,7 +120,7 @@ export const CardChat = ({
                       <div className="border border-[#DAE3F1] bg-[#F0F2F4] p-2 rounded-lg text-lg font-semibold">
                         Aesthetics Details
                       </div>
-                      <div className="flex  gap-[200px] p-2">
+                      <div className="flex  space-x-36 p-2">
                         <div>
                           <p className="text-[#727681] font-normal">Color</p>
                           <p className="font-semibold">Blonde</p>
@@ -141,7 +141,7 @@ export const CardChat = ({
                       <div className="border border-[#DAE3F1] bg-[#F0F2F4] p-2 rounded-lg text-lg font-semibold">
                         Technical Details
                       </div>
-                      <div className="flex  gap-[200px] p-2">
+                      <div className="flex  space-x-20 p-2">
                         <div>
                           <p className="text-[#727681] font-normal">Category</p>
                           <p className="font-semibold">Luxury Vinyl Flooring</p>
@@ -153,7 +153,7 @@ export const CardChat = ({
                           <p className="font-semibold">6.5MM</p>
                         </div>
                       </div>
-                      <div className="flex  gap-[200px] p-2">
+                      <div className="flex  space-x-40 p-2">
                         <div>
                           <p className="text-[#727681] font-normal">
                             Wear Layer

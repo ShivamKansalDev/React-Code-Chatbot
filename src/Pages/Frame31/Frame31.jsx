@@ -22,7 +22,7 @@ export const Frame31 = () => {
           >
             Luxury Vinyl Flooring
           </p>
-          <div class="px-6 py-4 text-center ">
+          <div class="mt-2 text-center">
             <div className="text-end">I like this one</div>
           </div>
         </div>
