@@ -17,7 +17,7 @@ export const CardChat = ({
 }) => {
   const [isModalOpen, setModalOpen] = useState(false);
 
-  // Function to toggle modal visibility  
+  // Function to toggle modal visibility
   const toggleModal = () => setModalOpen(!isModalOpen);
   const toggleClose = () => setModalOpen(isModalOpen);
 
@@ -58,16 +58,16 @@ export const CardChat = ({
       {/* Modal */}
       {isModalOpen && (
         <div className="fixed top-0 left-0 right-0 bottom-0 bg-black bg-opacity-50 z-50 flex items-center justify-center rounded-lg">
-          <div className="bg-[#F7F8F9] lg:w-[80%] lg:h-auto md:w-[90%] md:h-auto rounded-lg md:block lg:flex relative">
+          <div className="bg-[#F7F8F9] lg:w-[90%] lg:h-auto md:w-[90%] md:h-[90%] rounded-lg md:block lg:flex relative p-4 md:gap-0 lg:gap-3">
             <div className="md:w-full lg:w-1/2 md:h-[auto] lg:h-auto">
               <div className="relative">
                 <img
-                  className="lg:w-full lg:h-[100%] md:h-[280px] md:w-full p-2"
+                  className="lg:w-full lg:h-[100%] md:h-[420px] md:w-full"
                   src={tile}
                   alt="cross"
                 />
                 <div className="absolute md:-bottom-1 lg:bottom-0 left-0 right-0 flex justify-center mb-4">
-                  <button className="text-md bg-[#fff] px-3 py-2 rounded-full">
+                  <button className="text-md bg-[#fff] px-10 py-2 rounded-full">
                     Click on Product to Zoom
                   </button>
                 </div>
@@ -82,7 +82,7 @@ export const CardChat = ({
                 </button>
               </div>
             </div>
-            <div class="rounded-lg md:w-full lg:w-1/2 text-gray-600 body-font bg-[#F7F8F9] p-3 overflow-y-auto lg:h-auto">
+            <div class="rounded-lg md:w-full lg:w-1/2 text-gray-600 body-font bg-[#F7F8F9] overflow-y-auto lg:h-auto">
               <h1 class="text-4xl text-gray-800 sm:text-[24px] font-semibold title-font ">
                 Lenexa Creek
               </h1>
@@ -114,10 +114,10 @@ export const CardChat = ({
 
               {/* technical details */}
               <div>
-                <div className="border border-[#DAE3F1] bg-[#F0F2F4] p-2 rounded-lg text-lg font-semibold">
+                <div className="border p-2 border-[#DAE3F1] bg-[#F0F2F4] rounded-lg text-lg font-semibold mb-3">
                   Technical Details
                 </div>
-                <div className="flex  space-x-20">
+                <div className="flex space-x-20 mb-2 px-2">
                   <div>
                     <p className="text-[#727681] font-normal">Category</p>
                     <p className="font-semibold">Luxury Vinyl Flooring</p>
@@ -127,7 +127,7 @@ export const CardChat = ({
                     <p className="font-semibold">6.5MM</p>
                   </div>
                 </div>
-                <div className="flex  space-x-40 p-2">
+                <div className="flex  space-x-40 px-2">
                   <div>
                     <p className="text-[#727681] font-normal">Wear Layer</p>
                     <p className="font-semibold">20MIL</p>
