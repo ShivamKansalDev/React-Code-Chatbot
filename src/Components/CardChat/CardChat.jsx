@@ -17,7 +17,7 @@ export const CardChat = ({
 }) => {
   const [isModalOpen, setModalOpen] = useState(false);
 
-  // Function to toggle modal visibility
+  // Function to toggle modal visibility  
   const toggleModal = () => setModalOpen(!isModalOpen);
   const toggleClose = () => setModalOpen(isModalOpen);
 
@@ -58,7 +58,7 @@ export const CardChat = ({
       {/* Modal */}
       {isModalOpen && (
         <div className="fixed top-0 left-0 right-0 bottom-0 bg-black bg-opacity-50 z-50 flex items-center justify-center rounded-lg">
-          <div className="bg-[#F7F8F9] lg:w-[80%] lg:h-auto md:w-[70%] md:h-auto rounded-lg md:block lg:flex relative">
+          <div className="bg-[#F7F8F9] lg:w-[80%] lg:h-auto md:w-[90%] md:h-auto rounded-lg md:block lg:flex relative">
             <div className="md:w-full lg:w-1/2 md:h-[auto] lg:h-auto">
               <div className="relative">
                 <img
